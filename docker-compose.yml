@@ -1,0 +1,62 @@
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - "8000:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppassword
+      WORDPRESS_DB_NAME: wpdb
+    volumes:
+      - ./wordpress:/var/www/html
+    depends_on:
+      - db
+      - extract
+
+  db:
+    image: mysql:5.7
+    container_name: mysql-db
+    environment:
+      MYSQL_DATABASE: wpdb
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: wppassword
+      MYSQL_ROOT_PASSWORD: root123
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./bd:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root123
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  extract:
+    image: alpine:latest
+    container_name: extract_wp_content
+    volumes:
+      - ./wordpress:/wordpress
+      - ./content:/content
+    entrypoint:
+      - sh
+      - -c
+      - |
+        apk add --no-cache unzip && \
+        if [ -f /content/wp-content.zip ]; then
+          echo "Extrayendo wp-content.zip en ./wordpress ..."
+          unzip -o /content/wp-content.zip -d /wordpress
+          echo "Extracción completada"
+        else
+          echo "No se encontró wp-content.zip en /content"
+        fi
+    restart: "no"
+
+volumes:
+  db_data:
