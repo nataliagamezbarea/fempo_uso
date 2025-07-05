@@ -6,20 +6,20 @@
 **⚠️ Aviso importante:**  
 Después de que el mensaje *"Extracción completada"* aparezca en el servicio `extract`, espera unos segundos para que los cambios se apliquen correctamente antes de acceder a WordPress.
 
+En un primer momento, el desarrollo de esta página web se dividió entre dos grupos: fempo1 y fempo2 (mi grupo), cada uno trabajando de forma independiente y con planteamientos distintos respecto al diseño, la usabilidad y la estructura de la web (se puede visualizar el trabajo que hizo cada equipo en https://github.com/nataliagamezbarea/fempo_uso/tree/fempo_2).
 
-La página web  está diseñada para ofrecer información clara y actualizada sobre el ámbito educativo en las Islas Baleares. A través de la web, los usuarios pueden:
+A partir del 3 de junio, ambos grupos fusionaron sus proyectos con el objetivo de unificar esfuerzos y mejorar el resultado final. Aunque se partió de la estructura inicial creada por fempo1, fempo2 introdujo numerosas modificaciones y mejoras sustanciales, especialmente en lo relativo a la organización del contenido, la navegación y la optimización para el usuario final. Estas aportaciones fueron clave para el desarrollo del producto que finalmente se implementó.
 
-Consultar cursos y formaciones disponibles para el personal docente.
+La página web resultante está diseñada para ofrecer información clara y actualizada sobre el ámbito educativo en las Islas Baleares. A través de ella, los usuarios pueden:
 
-Acceder a noticias y novedades relacionadas con el sector educativo.
+  -   Consultar cursos y formaciones disponibles para el personal docente.
+  -    Acceder a noticias y novedades relacionadas con el sector educativo.
+  -    Visualizar el BOIB (Boletín Oficial de las Islas Baleares) filtrado por el último mes, facilitando el seguimiento de resoluciones y convocatorias.
+  -    Leer información detallada sobre oposiciones, listas de interinos y normativa educativa.
+  -    Estar al día mediante la incorporación constante de noticias y comunicados desde el panel de administración de WordPress.
 
-Visualizar el BOIB (Boletín Oficial de las Islas Baleares) filtrado por el último mes, facilitando el seguimiento de resoluciones y convocatorias.
+La estructura final está pensada para ser intuitiva y accesible desde cualquier dispositivo, facilitando el acceso rápido a la información relevante. Gracias a la colaboración entre grupos, y especialmente a las mejoras propuestas por fempo2, se consiguió un resultado más completo, funcional y alineado con las necesidades reales del usuario.
 
-Leer información detallada sobre oposiciones, listas de interinos y normativa educativa.
-
-Estar al día mediante la incorporación constante de noticias y comunicados desde el panel de administración de WordPress.
-
-La estructura de la web está pensada para ser intuitiva y accesible desde cualquier dispositivo, permitiendo a los usuarios encontrar fácilmente la información que necesitan.
 
 ## Requisitos Previos
 
