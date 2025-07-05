@@ -1,12 +1,10 @@
 # Descripción del proyecto 
 
-[![Demo en uso](demo/uso.png)](https://youtu.be/rgs4uEp0u0U)  
-[Ver demo de la página web de FEUSO](https://youtu.be/rgs4uEp0u0U)
-
+![Demo en uso](demo/uso.png)
 **⚠️ Aviso importante:**  
 Después de que el mensaje *"Extracción completada"* aparezca en el servicio `extract`, espera unos segundos para que los cambios se apliquen correctamente antes de acceder a WordPress.
 
-En un primer momento, el desarrollo de esta página web se dividió entre dos grupos: fempo1 y fempo2 (mi grupo), cada uno trabajando de forma independiente y con planteamientos distintos respecto al diseño, la usabilidad y la estructura de la web (se puede visualizar el trabajo que hizo cada equipo en https://github.com/nataliagamezbarea/fempo_uso/tree/fempo_2).
+En un primer momento, el desarrollo de esta página web se dividió entre dos grupos: fempo1 y fempo2 (mi grupo), cada uno trabajando de forma independiente y con planteamientos distintos respecto al diseño, la usabilidad y la estructura de la web (se puede visualizar el trabajo que hizo mi equipo en https://github.com/nataliagamezbarea/fempo_uso/tree/fempo_2).
 
 A partir del 3 de junio, ambos grupos fusionaron sus proyectos con el objetivo de unificar esfuerzos y mejorar el resultado final. Aunque se partió de la estructura inicial creada por fempo2, fempo1 introdujo numerosas modificaciones y mejoras sustanciales, especialmente en lo relativo a la organización del contenido, la navegación y la optimización para el usuario final. Estas aportaciones fueron clave para el desarrollo del producto que finalmente se implementó.
 
